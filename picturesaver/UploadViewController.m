@@ -45,27 +45,6 @@
     [imageObject saveInBackground];
      }
      
-//     InBackgroundWithBlock:^(BOOL succeeded, NSError *error) {
-//        if (succeeded) {
-//            [self.navigationController popViewControllerAnimated:YES];
-//        } else {
-//         [[[UIAlertView alloc]initWithTitle:@"Failure" message:@"It doesn't work!" delegate:self cancelButtonTitle:@"Goddamnit" otherButtonTitles:nil, nil]show];
-//        }
-//        //progressBlock:^(int percentDone){
-//        //    NSLog(@"Upload %d complete.", percentDone);
-//    }];
-//    
-//}
-
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
 */
 
 @end
